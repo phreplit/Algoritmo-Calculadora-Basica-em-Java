@@ -61,7 +61,7 @@ public class Main {
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter = scanner1.nextLine();
-        clear()
+        clear();
         break;
       case 2:
         System.out.println("\n Digite um numero: ");  
@@ -73,7 +73,7 @@ public class Main {
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter2 = scanner2.nextLine();
-        clear()
+        clear();
         break;
       case 3:
         System.out.println("\n Digite um numero: ");  
@@ -85,7 +85,7 @@ public class Main {
         Scanner scanner3 = new Scanner(System.in);
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter3 = scanner3.nextLine();
-        clear()
+        clear();
         break;
       case 4:
         System.out.println("\n Digite um numero: ");   
@@ -97,13 +97,13 @@ public class Main {
         Scanner scanner4 = new Scanner(System.in);
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter4 = scanner4.nextLine();
-        clear()
+        clear();
         break;
       case 5:
         System.out.println("\n Algoritmo Finalizado! ");
         break loop;
       case 9:
-        clear()
+        clear();
         Scanner scanner9 = new Scanner(System.in);
         System.out.println("\n");
         System.out.println(" Algoritmo: Calculadora Basica em Java ");
@@ -116,14 +116,14 @@ public class Main {
         System.out.println("");
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter9 = scanner9.nextLine();
-        clear()
+        clear();
         break;
       default:
         Scanner scanner5 = new Scanner(System.in);
         System.out.println("\n Erro escolha outra opcao. ");
         System.out.println("\n Tecle enter para retornar ao menu... \n");
         String enter5 = scanner5.nextLine();
-        clear()
+        clear();
        }
       } catch (Exception e) {
       Scanner scanner6 = new Scanner(System.in);
